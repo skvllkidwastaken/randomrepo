@@ -1,0 +1,71 @@
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+
+  background-image: url("backgroundI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+
+  font-family: "Audiowide", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: gray;
+
+}
+
+.finder {
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.output {
+
+  border-radius: 100px;
+  width: 500px;
+  height: 300px;
+  margin: 20px auto 0;
+  background-color: gray;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.output.error-state {
+
+  background-color: red;
+  color: white;
+
+}
+
+.output.error-state a {
+
+  color: white;
+
+}
+
+.activate {
+
+  border-radius: 100px;
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto 0;
+
+}
